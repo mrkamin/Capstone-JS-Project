@@ -1,27 +1,26 @@
-import { Meals } from "./mealclass.js";
-import { newApiUrl } from "./varialbels.js";
+import { Meals } from './mealclass.js';
+import { newApiUrl } from './varialbels.js';
 
 export class ApiLink {
-  /* static ApiUrl = "https://themealdb.com/api"; */
-
   static async mealsGet() {
-    const RESPONSE = await fetch(newApiUrl);
-    const { meals } = await RESPONSE.json();
+    const response = await fetch(newApiUrl);
+    const { meals } = await response.json();
     return meals;
   }
 
   static async mealsGetAll() {
-    const arrObj = await this.mealsGet();
+    const objArray = await this.mealsGet();
     // eslint-disable-next-line max-len
-    const mealsArray = arrObj.map(
-      (meal) =>
-        new Meals(
-          meal.idMeal,
-          meal.strMeal,
-          meal.strMealThumb,
-          meal.strInstructions
-        )
+    const mealsArray = objArray.map(
+      (meal) => new Meals(
+        meal.idMeal,
+        meal.strMeal,
+        meal.strMealThumb,
+        meal.strInstructions,
+      ),
     );
     return mealsArray;
   }
 }
+
+export default ApiLink;

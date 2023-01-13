@@ -160,6 +160,15 @@ footer {
   }
 }
 
+.sect__three__cont p,
+.sect__three__cont li {
+  line-height: 30px;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--C-DARK);
+  background-color: var(--C-BASIC-LIGHT);
+}
+
 .screen__loader__container__items div {
   box-sizing: content-box;
   position: absolute;
@@ -167,7 +176,8 @@ footer {
   border-style: solid;
   opacity: 1;
   border-radius: 50%;
-  animation: screen__loader__container__items 1.8867924528301885s
+  animation:
+    screen__loader__container__items 1.8867924528301885s
     cubic-bezier(0, 0.2, 0.8, 1) infinite;
 }
 
@@ -197,7 +207,9 @@ footer {
   backface-visibility: hidden;
   transform-origin: 0 0; /* see note above */
 }
+
 /* ================================================================ */
+
 /* || Header */
 header {
   background-color: var(--C-BASIC-LIGHT);
@@ -224,6 +236,7 @@ header {
   0% {
     transform: rotate(0deg);
   }
+
   10% {
     transform: rotate(360deg);
   }
@@ -231,6 +244,22 @@ header {
 
 .logo:hover {
   color: var(--C-BRAND);
+}
+
+.sect__two__recipe__details__link a {
+  color: var(--C-LIGHT);
+  font-size: 1.2rem;
+  font-weight: 700;
+  transition: all 0.4s linear;
+  text-decoration: underline;
+}
+
+.sect__one__recipe__details__link a {
+  color: var(--C-LIGHT);
+  font-size: 1.2rem;
+  font-weight: 700;
+  transition: all 0.4s linear;
+  text-decoration: underline;
 }
 
 .nav__menu {
@@ -304,12 +333,15 @@ header {
     right: 0;
   }
 }
+
 /* ================================================================ */
-/* || Meals Section*/
-.sect__one__cont {
+
+/* || Meals Section */
+
+/* .sect__one__cont {
   min-height: 100vh;
   padding: 4rem;
-}
+} */
 
 .sect__one__cont {
   max-width: 1280px;
@@ -319,9 +351,9 @@ header {
   text-align: center;
 }
 
-#sect__one__meal {
+/* #sect__one__meal {
   margin-top: 2.4rem 0;
-}
+} */
 
 .sect__one__meal__item {
   border-radius: 1rem;
@@ -408,14 +440,16 @@ header {
   background-color: var(--C-BRAND);
   color: var(--C-LIGHT);
 }
+
 /* ================================================================ */
-/* || Meals Section detail for Recipe Btn*/
+
+/* || Meals Section detail for Recipe Btn */
 .sect__one__recipe__meal__details {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: --C-LIGHT;
+  color: var(--C-LIGHT);
   background: var(--C-BRAND);
   border-radius: 1rem;
   width: 90%;
@@ -500,26 +534,19 @@ header {
   margin: 1.4rem 0;
 }
 
-.sect__one__recipe__details__link a {
-  color: var(--C-LIGHT);
-  font-size: 1.2rem;
-  font-weight: 700;
-  transition: all 0.4s linear;
-  text-decoration: underline;
-}
-
 .sect__one__recipe__details__link a:hover {
   opacity: 0.8;
 }
 
 /* ================================================================ */
-/* || Meals Section detail for Comment Btn*/
+
+/* || Meals Section detail for Comment Btn */
 .sect__one__comment__meal__details {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: --C-LIGHT;
+  color: var(--C-LIGHT);
   background: var(--C-BRAND);
   border-radius: 1rem;
   width: 80%;
@@ -648,7 +675,8 @@ form {
 }
 
 /* ================================================================ */
-/* || Meals Search Section*/
+
+/* || Meals Search Section */
 .sect__two__cont {
   min-height: 100vh;
   padding: 2rem;
@@ -717,9 +745,9 @@ form {
   background: var(--C-BASIC-BRAND);
 }
 
-#sect__two__meal {
+/* #sect__two__meal {
   margin-top: 2.4rem 0;
-}
+} */
 
 .sect__two__meal__item {
   border-radius: 1rem;
@@ -785,28 +813,15 @@ form {
   background-color: var(--C-BRAND);
 }
 
-.comment__btn {
-  border: none;
-  border-radius: 0.2rem;
-  padding: 5px;
-  width: 90px;
-  font-size: 16px;
-  background-color: var(--C-BASIC-LIGHT);
-}
-
-.comment__btn:hover {
-  background-color: var(--C-BRAND);
-  color: var(--C-LIGHT);
-}
-
 /* ================================================================ */
-/* || Meals Search Section detail for Recipe Btn*/
+
+/* || Meals Search Section detail for Recipe Btn */
 .sect__two__recipe__meal__details {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: --C-LIGHT;
+  color: var(--C-LIGHT);
   background: var(--C-BRAND);
   border-radius: 1rem;
   width: 90%;
@@ -890,26 +905,19 @@ form {
   margin: 1.4rem 0;
 }
 
-.sect__two__recipe__details__link a {
-  color: var(--C-LIGHT);
-  font-size: 1.2rem;
-  font-weight: 700;
-  transition: all 0.4s linear;
-  text-decoration: underline;
-}
-
 .sect__two__recipe__details__link a:hover {
   opacity: 0.8;
 }
 
 /* ================================================================ */
-/* || Meals Section detail for Comment Btn*/
+
+/* || Meals Section detail for Comment Btn */
 .sect__two__comment__meal__details {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: --C-LIGHT;
+  color: var(--C-LIGHT);
   background: var(--C-BRAND);
   border-radius: 1rem;
   width: 90%;
@@ -928,24 +936,9 @@ form {
   border-radius: 2rem;
 }
 
-.sect__one__comment__close__btn {
-  position: absolute;
-  right: 2rem;
-  top: 2rem;
-  font-size: 1.8rem;
-  background-color: var(--C-LIGHT);
-  border: none;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0.9;
-}
-
 /* ================================================================ */
-/* || Contact Section*/
+
+/* || Contact Section */
 .sect__three__cont {
   display: flex;
   flex-direction: column;
@@ -960,15 +953,6 @@ form {
 
 .sect__three__cont h1 {
   margin-bottom: 50px;
-}
-
-.sect__three__cont p,
-.sect__three__cont li {
-  line-height: 30px;
-  font-size: 22px;
-  font-weight: 600;
-  color: var(--C-DARK);
-  background-color: var(--C-BASIC-LIGHT);
 }
 
 .sect__three__cont li {
