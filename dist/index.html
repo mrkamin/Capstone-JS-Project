@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>JS Capeston Proj</title>
+  <script defer src="main.bundle.js"></script></head>
+  <body>
+    <!-- || Header -->
+    <header id="header" class="header">
+      <!-- || Nav Bar -->
+      <nav id="navbar" class="navbar">
+        <!-- || Logo -->
+        <a href="index.html" class="logo">Meals</a>
+        <!-- || Nav Menu -->
+        <ul id="nav__meun" class="nav__menu">
+          <li>
+            <a
+              href="index.html"
+              id="meal__nav__link"
+              class="meal__nav__link active"
+              >Meals</a
+            >
+          </li>
+          <li>
+            <a
+              href="index.html"
+              id="search__nav__link"
+              class="search__nav__link"
+              >Search Meals</a
+            >
+          </li>
+          <li>
+            <a
+              href="index.html"
+              id="contact__nav__link"
+              class="contact__nav__link"
+              >Contacts</a
+            >
+          </li>
+        </ul>
+        <!-- || Humberger Menu -->
+        <div id="humberger" class="humberger">
+          <span class="bars"></span>
+          <span class="bars"></span>
+          <span class="bars"></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- || Main -->
+    <main>
+      <!-- || Section One -->
+      <section id="sect__one" class="sect__one">
+        <!-- || Section One Container -->
+        <div id="sect__one__cont" class="sect__one__cont show">
+          <div id="sect__one__meal">
+            <div class="sect__one__meal__item">
+              <div class="sect__one__meal__img">
+                <img
+                  src="assets/img/namkeen.jpg"
+                  alt="IndianFood"
+                  class="img"
+                />
+              </div>
+              <div class="sect__one__meal__name">
+                <h2>Piza</h2>
+                <a href="" class="sect__one__recipe__btn">Get Recipe</a>
+              </div>
+              <div class="sect__one__like__comment">
+                <div class="sect__one__liky">
+                  <button type="submit" class="sect__one__like__btn">
+                    <p>Likes(1)</p>
+                    <img
+                      src="assets/img/heart-line.png"
+                      alt="heart_line"
+                      class="hear__line__pic"
+                    />
+                  </button>
+                </div>
+                <div class="sect__one__comment__btn">
+                  <button type="submit" class="comment__btn">Comment</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- || End Of Meals Items -->
+
+          <!-- || Meails Deails for Recipe in Meals Search -->
+
+          <div class="sect__one__recipe__meal__details">
+            <!-- || Recipi Close Btn -->
+            <button
+              type="button"
+              id="sect__one__recipe__close__btn"
+              class="btn sect__one__recipe__close__btn"
+            >
+              <i class="fas fa-times"></i>
+            </button>
+            <div
+              id="sect__one__recipe__meal__details__content"
+              class="sect__one__recipe__meal__details__content"
+            >
+              <h2 class="sect__one__recipe__details__title">
+                Meals Name Heare
+              </h2>
+              <p class="sect__one__recipe__details__catagory">Category Name</p>
+              <div class="sect__one__recipe__details__instruct">
+                <h3>Instraction</h3>
+                <p>
+                  Aushak is one of the most popular Afghani dishes and is
+                  generally eaten during the month of Ramadan or other Islamic
+                  festivals. Pasta dumplings are stuffed with chives, tomato
+                  purée, kofta pashaan (minced meat sauce), and then topped with
+                  a special yogurt sauce and dried mint leaves.
+                </p>
+              </div>
+              <div class="sect__one__recipe__details__meal__img">
+                <img src="./assets/img/Piza.jpg" alt="Piza" />
+              </div>
+              <div class="sect__one__recipe__details__link">
+                <a href="#" target="_blank">Watch Video</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- || Meal Details for comment in Meals search -->
+          <div class="sect__one__comment__meal__details">
+            <!-- || Recipi Close Btn -->
+            <button
+              type="button"
+              id="sect__one__comment__close__btn"
+              class="btn sect__one__comment__close__btn"
+            >
+              <i class="fas fa-times"></i>
+            </button>
+            <div
+              id="sect__one__comment__meal__details__content"
+              class="sect__one__comment__meal__details__content"
+            >
+              <h2 class="sect__one__comment__details__title">
+                Meals Name Heare
+              </h2>
+              <p class="sect__one__comment__details__catagory">Category Name</p>
+              <div class="sect__one__comment__details__instruct">
+                <h3>Instraction</h3>
+                <p>
+                  Aushak is one of the most popular Afghani dishes and is
+                  generally eaten during the month of Ramadan or other Islamic
+                  festivals. Pasta dumplings are stuffed with chives, tomato
+                  purée, kofta pashaan (minced meat sauce), and then topped with
+                  a special yogurt sauce and dried mint leaves.
+                </p>
+              </div>
+              <div class="sect__one__comment__details__meal__img">
+                <img src="./assets/img/Piza.jpg" alt="Piza" />
+              </div>
+              <div class="sect__one__comment__details__link">
+                <a href="#" target="_blank">Watch Video</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- || Section Two -->
+      <section id="sect__two" class="sect__two">
+        <!-- || Section Two Container -->
+        <div id="sect__two__cont" class="sect__two__cont hide">
+          <div
+            id="sect__two__meal__wrapper"
+            class="sect__two__meal__wrapper hide"
+          >
+            <div id="meal__search" class="meal__search">
+              <h2 class="title">Find Meals for your Ingreients</h2>
+              <blockquote>
+                Note Find Food Bh catagory like below,
+                <br /><cite>- egg, chicken, beef............</cite>
+              </blockquote>
+              <div id="meal__search__box" class="meal__search__box">
+                <input
+                  type="text"
+                  class="search__content"
+                  placeholder="Enter an ingredient"
+                  id="serarch__content"
+                />
+                <button type="submit" class="search__btn btn" id="search__btn">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+            </div>
+            <div id="meal__result" class="meal__result">
+              <h2 class="title">Your Search Results</h2>
+              <div id="sect__two__meal">
+                <div class="sect__two__meal__item">
+                  <div class="sect__two__meal__img">
+                    <img
+                      src="assets/img/namkeen.jpg"
+                      alt="IndianFood"
+                      class="img"
+                    />
+                  </div>
+                  <div class="sect__two__meal__name">
+                    <h2>Piza</h2>
+                    <a href="" class="sect__two__recipe__btn">Get Recipe</a>
+                  </div>
+                  <div class="sect__two__like__comment">
+                    <div class="sect__two__liky">
+                      <button type="submit" class="sect__two__like__btn">
+                        <p>Likes(1)</p>
+                        <img
+                          src="assets/img/heart-line.png"
+                          alt="heart_line"
+                          class="hear__line__pic"
+                        />
+                      </button>
+                    </div>
+                    <div class="sect__two__comment__btn">
+                      <button type="submit" class="comment__btn">
+                        Comment
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- || End Of Meals Items -->
+
+              <!-- || Meails Deails for Recipe in Meals Search -->
+
+              <div class="sect__two__recipe__meal__details">
+                <!-- || Recipi Close Btn -->
+                <button
+                  type="button"
+                  id="sect__two__recipe__close__btn"
+                  class="btn sect__two__recipe__close__btn"
+                >
+                  <i class="fas fa-times"></i>
+                </button>
+                <div
+                  id="sect__two__recipe__meal__details__content"
+                  class="sect__two__recipe__meal__details__content"
+                >
+                  <h2 class="sect__two__recipe__details__title">
+                    Meals Name Heare
+                  </h2>
+                  <p class="sect__two__recipe__details__catagory">
+                    Category Name
+                  </p>
+                  <div class="sect__two__recipe__details__instruct">
+                    <h3>Instraction</h3>
+                    <p>
+                      Aushak is two of the most popular Afghani dishes and is
+                      generally eaten during the month of Ramadan or other
+                      Islamic festivals. Pasta dumplings are stuffed with
+                      chives, tomato purée, kofta pashaan (minced meat sauce),
+                      and then topped with a special yogurt sauce and dried mint
+                      leaves.
+                    </p>
+                  </div>
+                  <div class="sect__two__recipe__details__meal__img">
+                    <img src="./assets/img/Piza.jpg" alt="Piza" />
+                  </div>
+                  <div class="sect__two__recipe__details__link">
+                    <a href="#" target="_blank">Watch Video</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- || Meal Details for comment in Meals search -->
+              <div class="sect__two__comment__meal__details">
+                <!-- || Recipi Close Btn -->
+                <button
+                  type="button"
+                  id="sect__two__comment__close__btn"
+                  class="btn sect__two__comment__close__btn"
+                >
+                  <i class="fas fa-times"></i>
+                </button>
+                <div
+                  id="sect__two__comment__meal__details__content"
+                  class="sect__two__comment__meal__details__content"
+                >
+                  <h2 class="sect__two__comment__details__title">
+                    Meals Name Heare
+                  </h2>
+                  <p class="sect__two__comment__details__catagory">
+                    Category Name
+                  </p>
+                  <div class="sect__two__comment__details__instruct">
+                    <h3>Instraction</h3>
+                    <p>
+                      Aushak is two of the most popular Afghani dishes and is
+                      generally eaten during the month of Ramadan or other
+                      Islamic festivals. Pasta dumplings are stuffed with
+                      chives, tomato purée, kofta pashaan (minced meat sauce),
+                      and then topped with a special yogurt sauce and dried mint
+                      leaves.
+                    </p>
+                  </div>
+                  <div class="sect__two__comment__details__meal__img">
+                    <img src="./assets/img/Piza.jpg" alt="Piza" />
+                  </div>
+                  <div class="sect__two__comment__details__link">
+                    <a href="#" target="_blank">Watch Video</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- || Section Three -->
+      <section id="sect__three" class="sect__three">
+        <!-- || Section Three Container -->
+        <div id="sect__three__cont" class="sect__three__cont hide"></div>
+      </section>
+    </main>
+  </body>
+</html>
