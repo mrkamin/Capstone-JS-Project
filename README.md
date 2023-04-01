@@ -48,7 +48,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
- - Live Demo: [Github Pages](https://mrkamin.github.io/JavaScript-capstone-project/dist/)
+ - Live Demo: 
+ [Github Pages](https://mrkamin.github.io/Capstone-JS-Project/dist/)
+ [Netfily](https://visionary-kashata-b7fbc5.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,7 +67,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:mrkamin/JavaScript-capstone-project.git
+  git clone git@github.com:mrkamin/Capstone-JS-Project.git
 ```
 
 ### Install
@@ -74,7 +76,7 @@ Install this project with:
 
 ```sh
   cd my-folder
-  git clone git@github.com:mrkamin/JavaScript-capstone-project.git
+  git clone git@github.com:mrkamin/Capstone-JS-Project.git
   npm install
 ```
 
@@ -84,7 +86,7 @@ Use this app by runing:
 
 ```sh
   cd my-folder
-  git@github.com:mrkamin/JavaScript-capstone-project.git
+  git clone git@github.com:mrkamin/Capstone-JS-Project.git
   npm install
   npm start
 ```
@@ -95,7 +97,7 @@ Test this app by runing:
 
 ```sh
   cd my-folder
-  git git@github.com:mrkamin/JavaScript-capstone-project.git
+  git clone git@github.com:mrkamin/Capstone-JS-Project.git
   npm install
   npm test
 ```
@@ -127,7 +129,7 @@ You can deploy this project using: GitHub but if you want to deploy make sure yo
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/mrkamin/JavaScript-capstone-project/issues).
+Feel free to check the [issues page](https://github.com/mrkamin/Capstone-JS-Project/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
