@@ -15,8 +15,9 @@ export class ApiLink {
       (meal) => new Meals(
         meal.idMeal,
         meal.strMeal,
-        meal.strMealThumb,
         meal.strInstructions,
+        meal.strMealThumb,
+        meal.strYoutube,
       ),
     );
     return mealsArray;

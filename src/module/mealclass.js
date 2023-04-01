@@ -1,8 +1,10 @@
 export class Meals {
-  constructor(id, name, image, likes = 0, description) {
+  constructor(id, name, description, image, youtublink, likes = 0) {
     this.id = id;
     this.name = name;
+    this.description = description;
     this.image = image;
+    this.youtublink = youtublink;
     this.likes = likes;
   }
 

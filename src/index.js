@@ -24,7 +24,7 @@ import { LikesApi } from './module/apiLikesClass.js';
 import { ApiLink } from './module/apiclass.js';
 /* ================================================================ */
 /* Render */
-import { addMealElments } from './module/render.js';
+import { addMealElments, addMealSearchElments } from './module/render.js';
 /* ================================================================ */
 /* Render */
 import { counters } from './module/contermeals.js';
@@ -114,6 +114,7 @@ window.addEventListener('load', async () => {
     return meal;
   });
   addMealElments(newMeals);
+  addMealSearchElments(newMeals);
   const mealCounters = document.querySelectorAll('.meal__conter');
   let counter = 1;
 

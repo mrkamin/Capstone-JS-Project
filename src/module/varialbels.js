@@ -30,4 +30,12 @@ export const newSectThree = document.getElementById('sect__three');
 /* ================================================================ */
 /* || Api Url */
 export const newApiUrl = 'https://themealdb.com/api/json/v1/1/search.php?s=';
-export const newLikeUrl = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/R0U3YhWaag3EdpAQTbkm/likes/';
+export const newLikeUrl = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/5gUQXCgkcL61zELpKbq2/likes/';
+export const newMealDetailsContentComment = document.querySelector(
+  '.sect__one__comment__meal__details',
+);
+export const newMealDetailsContentRecipe = document.querySelector(
+  '.sect__one__recipe__meal__details',
+);
+
+export const newSectTowItem = document.getElementById('sect__two__meal');
